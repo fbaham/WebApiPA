@@ -5,10 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\BE_WebApiPA\BE_WebApiPA.csproj" />
+    <ProjectReference Include="..\DAL_WebApiPA\DAL_WebApiPA.csproj" />
   </ItemGroup>
-
-  <ItemGroup>
-    <PackageReference Include="System.Data.SqlClient" Version="4.8.0" />
-  </ItemGroup>
-
 </Project>

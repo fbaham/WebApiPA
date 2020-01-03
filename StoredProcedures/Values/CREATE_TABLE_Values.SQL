@@ -1,5 +1,3 @@
-CREATE DATABASE [ValuesDB]
-
 USE [ValuesDB]
 
 CREATE TABLE [dbo].[Values](

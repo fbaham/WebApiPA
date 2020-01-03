@@ -1,5 +1,5 @@
   
-using WebApiPA.Models;
+using BE_WebApiPA.Values;
 using Microsoft.Extensions.Configuration;
 using System;
 using System.Collections.Generic;
@@ -8,13 +8,13 @@ using System.Data.SqlClient;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace WebApiPA.Data
+namespace DAL_WebApiPA.Values
 {
-    public class ValuesRepository
+    public class DAL_Values
     {
         private readonly string _connectionString;
 
-        public ValuesRepository(IConfiguration configuration)
+        public DAL_Values(IConfiguration configuration)
         {
             _connectionString = configuration.GetConnectionString("defaultConnection");
         }

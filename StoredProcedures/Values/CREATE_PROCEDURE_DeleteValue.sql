@@ -1,14 +1,16 @@
+USE [ValuesDB]
+
 -- =============================================
 -- Author:		Francisco Bahamondes
 -- Create date: 2019-01-02
--- Description:	Obtiene valores de tabla Values
+-- Description:	Borra valor de tabla values por 
+-- id
 -- =============================================
-CREATE PROCEDURE [dbo].[GetAllValues]
+CREATE PROCEDURE [dbo].[DeleteValue]
+	@Id int
 AS
 BEGIN
-	Select Id, Value1, Value2
-	from [Values]
+	delete [values]
+	where Id = @Id
 END
 GO
-
-

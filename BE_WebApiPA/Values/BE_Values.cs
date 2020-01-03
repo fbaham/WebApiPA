@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace WebApiPA.Models
+namespace BE_WebApiPA.Values
 {
     public class Value
     {

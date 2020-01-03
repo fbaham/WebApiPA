@@ -2,8 +2,8 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using WebApiPA.Data;
-using WebApiPA.Models;
+using DAL_WebApiPA.Values;
+using BE_WebApiPA.Values;
 using Microsoft.AspNetCore.Mvc;
 
 namespace WebApiPA.Controllers
@@ -12,9 +12,9 @@ namespace WebApiPA.Controllers
     [ApiController]
     public class ValuesController : ControllerBase
     {
-        private readonly ValuesRepository _repository;
+        private readonly DAL_Values _repository;
 
-        public ValuesController(ValuesRepository repository)
+        public ValuesController(DAL_Values repository)
         {
             this._repository = repository ?? throw new ArgumentNullException(nameof(repository));
         }
