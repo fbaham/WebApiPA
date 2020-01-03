@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApiPA", "WebApiPA\WebApi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL_WebApiPA", "DAL_WebApiPA\DAL_WebApiPA.csproj", "{E6AC8E88-0EC1-4E01-B579-556B1F493732}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BE_WebApiPA", "BE_WebApiPA\BL_WebApiPA.csproj", "{B34EAD74-BA61-4369-93AF-BE36B6DA2A81}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BE_WebApiPA", "BE_WebApiPA\BE_WebApiPA.csproj", "{B34EAD74-BA61-4369-93AF-BE36B6DA2A81}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
